@@ -74,8 +74,8 @@ $FPLIST
 $ENDFPLIST
 DRAW
 P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
-P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 10 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
@@ -117,9 +117,9 @@ $FPLIST
  LED_THT:*
 $ENDFPLIST
 DRAW
-P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 10 -50 -50 -50 50 N
 P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
 P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
 P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
 X K 1 -150 0 100 R 50 50 1 1 P
@@ -160,11 +160,11 @@ X B 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# bike_light_kicad-rescue_12401832E402A-Digikey_USB_CON
+# bike_light_kicad-rescue_12401832E402A-Digikey_USB_CON-bike_light_kicad-rescue
 #
-DEF bike_light_kicad-rescue_12401832E402A-Digikey_USB_CON J 0 40 Y Y 1 F N
+DEF bike_light_kicad-rescue_12401832E402A-Digikey_USB_CON-bike_light_kicad-rescue J 0 40 Y Y 1 F N
 F0 "J" -450 750 50 H V L CNN
-F1 "bike_light_kicad-rescue_12401832E402A-Digikey_USB_CON" -50 -950 50 H V L CNN
+F1 "bike_light_kicad-rescue_12401832E402A-Digikey_USB_CON-bike_light_kicad-rescue" -50 -950 50 H V L CNN
 F2 "digikey-footprints:USB-C_Female_12401X" 200 200 60 H I L CNN
 F3 "https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/12401832E402A_Dwg_RevX1_04-25-17.pdf" 200 300 60 H I L CNN
 F4 "12401832E402ACT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -411,11 +411,11 @@ X ~ SH -200 -950 110 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# bike_light_kicad-rescue_ATtiny85-20SU-MCU_Microchip_ATtiny
+# bike_light_kicad-rescue_ATtiny85-20SU-MCU_Microchip_ATtiny-bike_light_kicad-rescue
 #
-DEF bike_light_kicad-rescue_ATtiny85-20SU-MCU_Microchip_ATtiny U 0 20 Y Y 1 F N
+DEF bike_light_kicad-rescue_ATtiny85-20SU-MCU_Microchip_ATtiny-bike_light_kicad-rescue U 0 20 Y Y 1 F N
 F0 "U" -500 550 50 H V L BNN
-F1 "bike_light_kicad-rescue_ATtiny85-20SU-MCU_Microchip_ATtiny" 100 -550 50 H V L TNN
+F1 "bike_light_kicad-rescue_ATtiny85-20SU-MCU_Microchip_ATtiny-bike_light_kicad-rescue" 100 -550 50 H V L TNN
 F2 "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm" 0 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -434,11 +434,11 @@ X VCC 8 0 600 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# bike_light_kicad-rescue_AVR-ISP-6-Connector
+# bike_light_kicad-rescue_AVR-ISP-6-Connector-bike_light_kicad-rescue
 #
-DEF bike_light_kicad-rescue_AVR-ISP-6-Connector J 0 40 Y Y 1 F N
+DEF bike_light_kicad-rescue_AVR-ISP-6-Connector-bike_light_kicad-rescue J 0 40 Y Y 1 F N
 F0 "J" -250 450 50 H V L CNN
-F1 "bike_light_kicad-rescue_AVR-ISP-6-Connector" 0 450 50 H V L CNN
+F1 "bike_light_kicad-rescue_AVR-ISP-6-Connector-bike_light_kicad-rescue" 0 450 50 H V L CNN
 F2 "" -250 50 50 V I C CNN
 F3 "" -1275 -550 50 H I C CNN
 $FPLIST
@@ -462,11 +462,11 @@ X GND 6 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# bike_light_kicad-rescue_CSD16406Q3-Manual_Library
+# bike_light_kicad-rescue_CSD16406Q3-Manual_Library-bike_light_kicad-rescue
 #
-DEF bike_light_kicad-rescue_CSD16406Q3-Manual_Library U 0 40 Y Y 1 F N
+DEF bike_light_kicad-rescue_CSD16406Q3-Manual_Library-bike_light_kicad-rescue U 0 40 Y Y 1 F N
 F0 "U" 50 -50 50 H V C CNN
-F1 "bike_light_kicad-rescue_CSD16406Q3-Manual_Library" 0 450 50 H V C CNN
+F1 "bike_light_kicad-rescue_CSD16406Q3-Manual_Library-bike_light_kicad-rescue" 0 450 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -482,11 +482,11 @@ X D 8 350 350 200 L 50 50 1 1 U
 ENDDRAW
 ENDDEF
 #
-# bike_light_kicad-rescue_GND1-power
+# bike_light_kicad-rescue_GND1-power-bike_light_kicad-rescue
 #
-DEF bike_light_kicad-rescue_GND1-power #PWR 0 0 Y Y 1 F P
+DEF bike_light_kicad-rescue_GND1-power-bike_light_kicad-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "bike_light_kicad-rescue_GND1-power" 0 -150 50 H V C CNN
+F1 "bike_light_kicad-rescue_GND1-power-bike_light_kicad-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -495,11 +495,11 @@ X GND1 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# bike_light_kicad-rescue_LM2621-Manual_Library
+# bike_light_kicad-rescue_LM2621-Manual_Library-bike_light_kicad-rescue
 #
-DEF bike_light_kicad-rescue_LM2621-Manual_Library U 0 40 Y Y 1 F N
+DEF bike_light_kicad-rescue_LM2621-Manual_Library-bike_light_kicad-rescue U 0 40 Y Y 1 F N
 F0 "U" 150 750 50 H V C CNN
-F1 "bike_light_kicad-rescue_LM2621-Manual_Library" -150 800 50 H V C CNN
+F1 "bike_light_kicad-rescue_LM2621-Manual_Library-bike_light_kicad-rescue" -150 800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -515,11 +515,11 @@ X 2 EN 700 450 200 L 50 50 1 1 U
 ENDDRAW
 ENDDEF
 #
-# bike_light_kicad-rescue_NCP699SN33T1G-Manual_Library
+# bike_light_kicad-rescue_NCP699SN33T1G-Manual_Library-bike_light_kicad-rescue
 #
-DEF bike_light_kicad-rescue_NCP699SN33T1G-Manual_Library U 0 40 Y Y 1 F N
+DEF bike_light_kicad-rescue_NCP699SN33T1G-Manual_Library-bike_light_kicad-rescue U 0 40 Y Y 1 F N
 F0 "U" -150 750 50 H V C CNN
-F1 "bike_light_kicad-rescue_NCP699SN33T1G-Manual_Library" 50 650 50 H V C CNN
+F1 "bike_light_kicad-rescue_NCP699SN33T1G-Manual_Library-bike_light_kicad-rescue" 50 650 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -532,11 +532,11 @@ X Vout 5 450 500 200 L 50 50 1 1 U
 ENDDRAW
 ENDDEF
 #
-# bike_light_kicad-rescue_TLC59711PWPR-Digikey_PMIC_LED
+# bike_light_kicad-rescue_TLC59711PWPR-Digikey_PMIC_LED-bike_light_kicad-rescue
 #
-DEF bike_light_kicad-rescue_TLC59711PWPR-Digikey_PMIC_LED U 0 40 Y Y 1 F N
+DEF bike_light_kicad-rescue_TLC59711PWPR-Digikey_PMIC_LED-bike_light_kicad-rescue U 0 40 Y Y 1 F N
 F0 "U" -200 440 60 H V R CNN
-F1 "bike_light_kicad-rescue_TLC59711PWPR-Digikey_PMIC_LED" 0 -300 60 V V C CNN
+F1 "bike_light_kicad-rescue_TLC59711PWPR-Digikey_PMIC_LED-bike_light_kicad-rescue" 0 -300 60 V V C CNN
 F2 "digikey-footprints:TSSOP-20-1EP_W4.4mm" 200 200 60 H I L CNN
 F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlc59711" 200 300 60 H I L CNN
 F4 "296-36745-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -574,11 +574,11 @@ X SDTI 9 -400 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# bike_light_kicad-rescue_bq21040-Manual_Library
+# bike_light_kicad-rescue_bq21040-Manual_Library-bike_light_kicad-rescue
 #
-DEF bike_light_kicad-rescue_bq21040-Manual_Library U 0 40 Y Y 1 F N
+DEF bike_light_kicad-rescue_bq21040-Manual_Library-bike_light_kicad-rescue U 0 40 Y Y 1 F N
 F0 "U" 200 750 50 H V C CNN
-F1 "bike_light_kicad-rescue_bq21040-Manual_Library" -100 750 50 H V C CNN
+F1 "bike_light_kicad-rescue_bq21040-Manual_Library-bike_light_kicad-rescue" -100 750 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -674,8 +674,9 @@ F1 "power_VD" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-C 0 75 25 0 1 0 N
-P 2 0 1 0 0 0 0 50 N
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
 X VD 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF

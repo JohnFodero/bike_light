@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:bike_light_kicad-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -28,7 +27,7 @@ F 5 "BQ29700DSER" H 11750 1700 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L bike_light_kicad-rescue:TLC59711PWPR-Digikey_PMIC_LED U7
+L bike_light_kicad-rescue:TLC59711PWPR-Digikey_PMIC_LED-bike_light_kicad-rescue U7
 U 1 1 5F472255
 P 2150 9150
 F 0 "U7" H 1600 9750 60  0000 C CNN
@@ -120,43 +119,25 @@ U 1 1 5F48AAA7
 P 10700 4900
 F 0 "D2" H 10700 4683 50  0000 C CNN
 F 1 "D_Schottky" H 10700 4774 50  0000 C CNN
-F 2 "" H 10700 4900 50  0001 C CNN
-F 3 "1727-3861-2-ND" H 10700 4900 50  0001 C CNN
+F 2 "Diodes_SMD:D_SOD-323F" H 10700 4900 50  0001 C CNN
+F 3 "" H 10700 4900 50  0001 C CNN
+F 4 "1727-3861-2-ND" H 10700 4900 50  0001 C CNN "Digi-Key_PN"
+F 5 "PMEG2015EJ,115" H 10700 4900 50  0001 C CNN "MPN"
 	1    10700 4900
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R7
-U 1 1 5F48BD9E
-P 9850 5800
-F 0 "R7" H 9920 5846 50  0000 L CNN
-F 1 "500" H 9920 5755 50  0000 L CNN
-F 2 "" V 9780 5800 50  0001 C CNN
-F 3 "~" H 9850 5800 50  0001 C CNN
-	1    9850 5800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:L L1
 U 1 1 5F48C2E6
-P 10300 5200
-F 0 "L1" H 10353 5246 50  0000 L CNN
-F 1 "22u" H 10353 5155 50  0000 L CNN
-F 2 "" H 10300 5200 50  0001 C CNN
-F 3 "SRU1038-220YCT-ND" H 10300 5200 50  0001 C CNN
-	1    10300 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C5
-U 1 1 5F48F511
-P 9900 4900
-F 0 "C5" V 9648 4900 50  0000 C CNN
-F 1 "4.7u" V 9739 4900 50  0000 C CNN
-F 2 "" H 9938 4750 50  0001 C CNN
-F 3 "C1206C475K4RACTU" H 9900 4900 50  0001 C CNN
-	1    9900 4900
-	0    1    1    0   
+P 7250 5650
+F 0 "L1" H 7303 5696 50  0000 L CNN
+F 1 "22u" H 7303 5605 50  0000 L CNN
+F 2 "" H 7250 5650 50  0001 C CNN
+F 3 "" H 7250 5650 50  0001 C CNN
+F 4 "SRU1038-220YCT-ND" H 7250 5650 50  0001 C CNN "Digi-Key_PN"
+F 5 "SRU1038-220Y" H 7250 5650 50  0001 C CNN "MPN"
+	1    7250 5650
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR035
@@ -207,39 +188,6 @@ Connection ~ 10300 4900
 Wire Wire Line
 	10300 4900 10550 4900
 $Comp
-L Device:R R10
-U 1 1 5F4A8A20
-P 8750 7050
-F 0 "R10" V 8543 7050 50  0000 C CNN
-F 1 "150k" V 8634 7050 50  0000 C CNN
-F 2 "" V 8680 7050 50  0001 C CNN
-F 3 "~" H 8750 7050 50  0001 C CNN
-	1    8750 7050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R11
-U 1 1 5F4A9158
-P 8350 7750
-F 0 "R11" H 8280 7704 50  0000 R CNN
-F 1 "67.4k" H 8280 7795 50  0000 R CNN
-F 2 "" V 8280 7750 50  0001 C CNN
-F 3 "~" H 8350 7750 50  0001 C CNN
-	1    8350 7750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C13
-U 1 1 5F4A9866
-P 8750 7450
-F 0 "C13" V 9002 7450 50  0000 C CNN
-F 1 "39pF" V 8911 7450 50  0000 C CNN
-F 2 "" H 8788 7300 50  0001 C CNN
-F 3 "~" H 8750 7450 50  0001 C CNN
-	1    8750 7450
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR043
 U 1 1 5F4AC137
 P 8350 7900
@@ -283,7 +231,7 @@ $EndComp
 Wire Wire Line
 	9850 6400 9850 6350
 $Comp
-L bike_light_kicad-rescue:LM2621-Manual_Library U6
+L bike_light_kicad-rescue:LM2621-Manual_Library-bike_light_kicad-rescue U6
 U 1 1 5F4B42FB
 P 8250 6250
 F 0 "U6" H 8375 7115 50  0000 C CNN
@@ -297,7 +245,6 @@ F 5 "LM2621MMX/NOPB" H 8250 6250 50  0001 C CNN "MPN"
 $EndComp
 Wire Wire Line
 	8950 5650 9850 5650
-Connection ~ 9850 5950
 Wire Wire Line
 	9850 5950 9850 6050
 Wire Wire Line
@@ -360,7 +307,6 @@ Wire Wire Line
 Wire Wire Line
 	9850 5300 9850 5650
 Connection ~ 6950 5650
-Connection ~ 9850 5650
 Wire Wire Line
 	11000 5350 11000 5400
 Wire Wire Line
@@ -404,7 +350,7 @@ Wire Wire Line
 	6950 6100 6750 6100
 Connection ~ 6750 6100
 $Comp
-L bike_light_kicad-rescue:12401832E402A-Digikey_USB_CON J1
+L bike_light_kicad-rescue:12401832E402A-Digikey_USB_CON-bike_light_kicad-rescue J1
 U 1 1 5F4C042B
 P 2600 2300
 F 0 "J1" H 2600 3335 50  0000 C CNN
@@ -513,7 +459,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 2150 3700 2150
 $Comp
-L bike_light_kicad-rescue:ATtiny85-20SU-MCU_Microchip_ATtiny U5
+L bike_light_kicad-rescue:ATtiny85-20SU-MCU_Microchip_ATtiny-bike_light_kicad-rescue U5
 U 1 1 5F5461DD
 P 1750 5850
 F 0 "U5" H 1221 5896 50  0000 R CNN
@@ -526,7 +472,7 @@ F 5 "ATTINY85-20SUR" H 1750 5850 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L bike_light_kicad-rescue:bq21040-Manual_Library U2
+L bike_light_kicad-rescue:bq21040-Manual_Library-bike_light_kicad-rescue U2
 U 1 1 5F54BC79
 P 6950 2600
 F 0 "U2" H 6975 3465 50  0000 C CNN
@@ -695,7 +641,7 @@ Wire Wire Line
 Wire Wire Line
 	11200 1800 11350 1800
 $Comp
-L bike_light_kicad-rescue:GND1-power #PWR09
+L bike_light_kicad-rescue:GND1-power-bike_light_kicad-rescue #PWR09
 U 1 1 5F6108C1
 P 10800 2050
 F 0 "#PWR09" H 10800 1800 50  0001 C CNN
@@ -706,7 +652,7 @@ F 3 "" H 10800 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bike_light_kicad-rescue:CSD16406Q3-Manual_Library U3
+L bike_light_kicad-rescue:CSD16406Q3-Manual_Library-bike_light_kicad-rescue U3
 U 1 1 5F619F87
 P 10950 3200
 F 0 "U3" H 10950 3775 50  0000 C CNN
@@ -783,7 +729,7 @@ LED Driver
 Text Notes 3950 7500 0    138  ~ 0
 uC
 $Comp
-L bike_light_kicad-rescue:AVR-ISP-6-Connector J2
+L bike_light_kicad-rescue:AVR-ISP-6-Connector-bike_light_kicad-rescue J2
 U 1 1 5F7E2568
 P 3900 5850
 F 0 "J2" H 3571 5946 50  0000 R CNN
@@ -855,7 +801,7 @@ F 3 "" H 5600 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bike_light_kicad-rescue:GND1-power #PWR06
+L bike_light_kicad-rescue:GND1-power-bike_light_kicad-rescue #PWR06
 U 1 1 5F50A099
 P 11750 2000
 F 0 "#PWR06" H 11750 1750 50  0001 C CNN
@@ -866,7 +812,7 @@ F 3 "" H 11750 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bike_light_kicad-rescue:GND1-power #PWR025
+L bike_light_kicad-rescue:GND1-power-bike_light_kicad-rescue #PWR025
 U 1 1 5F50AC93
 P 12700 2950
 F 0 "#PWR025" H 12700 2700 50  0001 C CNN
@@ -1017,7 +963,7 @@ F 3 "" H 12950 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bike_light_kicad-rescue:GND1-power #PWR013
+L bike_light_kicad-rescue:GND1-power-bike_light_kicad-rescue #PWR013
 U 1 1 5F5253B9
 P 12600 2250
 F 0 "#PWR013" H 12600 2000 50  0001 C CNN
@@ -1174,7 +1120,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 5950 3500 5950
 $Comp
-L bike_light_kicad-rescue:NCP699SN33T1G-Manual_Library U8
+L bike_light_kicad-rescue:NCP699SN33T1G-Manual_Library-bike_light_kicad-rescue U8
 U 1 1 5F57AA6E
 P 6800 10250
 F 0 "U8" H 6800 11015 50  0000 C CNN
@@ -1509,7 +1455,7 @@ $Comp
 L Device:C C14
 U 1 1 5F6BC033
 P 9850 6200
-F 0 "C14" H 9650 6250 50  0000 L CNN
+F 0 "C14" H 9600 6250 50  0000 L CNN
 F 1 ".1uF" H 9600 6150 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 9888 6050 50  0001 C CNN
 F 3 "" H 9850 6200 50  0001 C CNN
@@ -1632,7 +1578,7 @@ Wire Wire Line
 	11550 3150 11550 3050
 Connection ~ 11550 3050
 $Comp
-L bike_light_kicad-rescue:CSD16406Q3-Manual_Library U4
+L bike_light_kicad-rescue:CSD16406Q3-Manual_Library-bike_light_kicad-rescue U4
 U 1 1 5F6DD621
 P 11900 3200
 F 0 "U4" H 11900 3775 50  0000 C CNN
@@ -1714,17 +1660,6 @@ F 5 "RC0603FR-07100KL" H 2850 6850 50  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:L L2
-U 1 1 5F492169
-P 7250 5650
-F 0 "L2" H 7303 5696 50  0000 L CNN
-F 1 "22u" H 7303 5605 50  0000 L CNN
-F 2 "" H 7250 5650 50  0001 C CNN
-F 3 "SRU1038-220YCT-ND" H 7250 5650 50  0001 C CNN
-	1    7250 5650
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:C C12
 U 1 1 5F6BD112
 P 6550 5950
@@ -1736,50 +1671,6 @@ F 4 "399-1099-1-ND" H 6550 5950 50  0001 C CNN "Digi-Key_PN"
 F 5 "C0603C104M4RACTU" H 6550 5950 50  0001 C CNN "MPN"
 	1    6550 5950
 	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:C C11
-U 1 1 5F494B86
-P 6950 5950
-F 0 "C11" H 7065 5996 50  0000 L CNN
-F 1 "22uF" H 7065 5905 50  0000 L CNN
-F 2 "" H 6988 5800 50  0001 C CNN
-F 3 "490-9956-1-ND" H 6950 5950 50  0001 C CNN
-	1    6950 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C8
-U 1 1 5F4871FD
-P 11800 5200
-F 0 "C8" H 11915 5246 50  0000 L CNN
-F 1 "22uF" H 11900 5150 50  0000 L CNN
-F 2 "" H 11838 5050 50  0001 C CNN
-F 3 "490-9956-1-ND" H 11800 5200 50  0001 C CNN
-	1    11800 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C7
-U 1 1 5F486F5C
-P 11400 5200
-F 0 "C7" H 11515 5246 50  0000 L CNN
-F 1 "22uF" H 11515 5155 50  0000 L CNN
-F 2 "" H 11438 5050 50  0001 C CNN
-F 3 "490-9956-1-ND" H 11400 5200 50  0001 C CNN
-	1    11400 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C6
-U 1 1 5F48C8B3
-P 11000 5200
-F 0 "C6" H 11115 5246 50  0000 L CNN
-F 1 "22uF" H 11115 5155 50  0000 L CNN
-F 2 "" H 11038 5050 50  0001 C CNN
-F 3 "490-9956-1-ND" H 11000 5200 50  0001 C CNN
-	1    11000 5200
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
@@ -1884,5 +1775,137 @@ F 4 "399-11136-1-ND" H 7950 9850 50  0001 C CNN "Digi-Key_PN"
 F 5 "C0603C105M4RACTU" H 7950 9850 50  0001 C CNN "MPN"
 	1    7950 9850
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F57B9D3
+P 11000 5200
+F 0 "C?" H 10750 5250 50  0000 L CNN
+F 1 "22uF" H 10700 5150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 11038 5050 50  0001 C CNN
+F 3 "" H 11000 5200 50  0001 C CNN
+F 4 "490-9956-1-ND" H 11000 5200 50  0001 C CNN "Digi-Key_PN"
+F 5 "GRM21BC81C226ME44L" H 11000 5200 50  0001 C CNN "MPN"
+	1    11000 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F57F7E5
+P 9900 4900
+F 0 "C?" V 9650 4850 50  0000 L CNN
+F 1 "4.7uF" V 9750 4800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 9938 4750 50  0001 C CNN
+F 3 "" H 9900 4900 50  0001 C CNN
+F 4 "399-3524-1-ND" H 9900 4900 50  0001 C CNN "Digi-Key_PN"
+F 5 "C1206C475K4RACTU" H 9900 4900 50  0001 C CNN "MPN"
+	1    9900 4900
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F581A79
+P 11400 5200
+F 0 "C?" H 11150 5250 50  0000 L CNN
+F 1 "22uF" H 11100 5150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 11438 5050 50  0001 C CNN
+F 3 "" H 11400 5200 50  0001 C CNN
+F 4 "490-9956-1-ND" H 11400 5200 50  0001 C CNN "Digi-Key_PN"
+F 5 "GRM21BC81C226ME44L" H 11400 5200 50  0001 C CNN "MPN"
+	1    11400 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F581EFF
+P 11800 5200
+F 0 "C?" H 11550 5250 50  0000 L CNN
+F 1 "22uF" H 11500 5150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 11838 5050 50  0001 C CNN
+F 3 "" H 11800 5200 50  0001 C CNN
+F 4 "490-9956-1-ND" H 11800 5200 50  0001 C CNN "Digi-Key_PN"
+F 5 "GRM21BC81C226ME44L" H 11800 5200 50  0001 C CNN "MPN"
+	1    11800 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F585BE9
+P 9850 5800
+F 0 "R?" H 9920 5846 50  0000 L CNN
+F 1 "499" H 9920 5755 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 9780 5800 50  0001 C CNN
+F 3 "~" H 9850 5800 50  0001 C CNN
+F 4 "311-499HRCT-ND" H 9850 5800 50  0001 C CNN "Digi-Key_PN"
+F 5 "RC0603FR-07499RL" H 9850 5800 50  0001 C CNN "MPN"
+	1    9850 5800
+	1    0    0    1   
+$EndComp
+Connection ~ 9850 5950
+Connection ~ 9850 5650
+$Comp
+L Device:R R?
+U 1 1 5F58A099
+P 8350 7750
+F 0 "R?" H 8420 7796 50  0000 L CNN
+F 1 "68k" H 8420 7705 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 8280 7750 50  0001 C CNN
+F 3 "~" H 8350 7750 50  0001 C CNN
+F 4 "311-68.0KHRCT-ND" H 8350 7750 50  0001 C CNN "Digi-Key_PN"
+F 5 "RC0603FR-0768KL" H 8350 7750 50  0001 C CNN "MPN"
+	1    8350 7750
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F58C202
+P 8750 7050
+F 0 "R?" V 8950 6950 50  0000 L CNN
+F 1 "150k" V 8850 6950 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 8680 7050 50  0001 C CNN
+F 3 "~" H 8750 7050 50  0001 C CNN
+F 4 "311-150KHRCT-ND" H 8750 7050 50  0001 C CNN "Digi-Key_PN"
+F 5 "RC0603FR-07150KL" H 8750 7050 50  0001 C CNN "MPN"
+	1    8750 7050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F58DCE5
+P 6950 5950
+F 0 "C?" H 6700 6000 50  0000 L CNN
+F 1 "22uF" H 6650 5900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 6988 5800 50  0001 C CNN
+F 3 "" H 6950 5950 50  0001 C CNN
+F 4 "490-9956-1-ND" H 6950 5950 50  0001 C CNN "Digi-Key_PN"
+F 5 "GRM21BC81C226ME44L" H 6950 5950 50  0001 C CNN "MPN"
+	1    6950 5950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5F593FA0
+P 10300 5200
+F 0 "L?" H 10353 5246 50  0000 L CNN
+F 1 "22u" H 10353 5155 50  0000 L CNN
+F 2 "" H 10300 5200 50  0001 C CNN
+F 3 "" H 10300 5200 50  0001 C CNN
+F 4 "SRU1038-220YCT-ND" H 10300 5200 50  0001 C CNN "Digi-Key_PN"
+F 5 "SRU1038-220Y" H 10300 5200 50  0001 C CNN "MPN"
+	1    10300 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F594AF5
+P 8750 7450
+F 0 "C?" V 9000 7400 50  0000 L CNN
+F 1 "39pF" V 8900 7350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8788 7300 50  0001 C CNN
+F 3 "" H 8750 7450 50  0001 C CNN
+F 4 "399-7911-1-ND" H 8750 7450 50  0001 C CNN "Digi-Key_PN"
+F 5 "C0603C390J5GACTU" H 8750 7450 50  0001 C CNN "MPN"
+	1    8750 7450
+	0    1    -1   0   
 $EndComp
 $EndSCHEMATC
