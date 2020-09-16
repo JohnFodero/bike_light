@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name Digikey_PMIC_LED)(type Legacy)(uri /Users/aidanphillips/Desktop/bike_light/library/digikey/digikey-symbols/dk_PMIC-LED-Drivers.lib)(options "")(descr ""))
+  (lib (name Digikey_USB_CON)(type Legacy)(uri /Users/aidanphillips/Desktop/bike_light/library/digikey/digikey-symbols/dk_USB-DVI-HDMI-Connectors.lib)(options "")(descr ""))
+  (lib (name Manual_Library)(type Legacy)(uri ${KIPRJMOD}/Manual_Library.lib)(options "")(descr ""))
+  (lib (name bike_light_kicad-rescue)(type Legacy)(uri ${KIPRJMOD}/bike_light_kicad-rescue.lib)(options "")(descr ""))
+)
